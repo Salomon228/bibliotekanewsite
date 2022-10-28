@@ -1,0 +1,287 @@
+
+
+html{
+
+	width: 100%;
+	max-width:100%;
+	overflow-x:hidden;
+}
+
+
+
+ body{
+width: 100%;
+	max-width:100%;
+	overflow-x:hidden;
+    background:url("fon.jpg");
+    color: black;
+        font-size: 1.3em;
+ }
+            
+   .container {
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1900px;
+   padding: 0 15px;
+   flex-direction:row-reverse;
+   justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1170px) {
+    .wrapper {
+        max-width: 1170px;
+    }
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 801px){
+	.grid{
+    display: grid;
+    grid-template-columns:  200px minmax(200px, 1fr);
+    grid-template-areas: "content1 content2";} 
+
+.img1 {
+	width:10vw;
+	height:10vw;
+
+}
+.img3 {
+	width:10vw;
+	height:10vw;
+}
+
+}
+
+
+@media(max-width: 800px){
+    .grid{
+   display: grid;
+   grid-template-rows: auto auto;
+   grid-template-areas: "content2" "content1";
+}
+
+
+
+
+	.element1{
+    grid-area: content1;
+}
+	.element2{
+    grid-area: content2;
+}
+ }
+
+
+
+
+
+
+	@media(min-width: 600px){
+	.grid{
+    display: grid;
+    grid-template-columns:  200px minmax(200px, 1fr);
+    grid-template-areas: "content1 content2";}  
+}
+	@media(max-width: 600px){
+    .grid{
+   display: grid;
+   grid-template-rows: auto auto;
+   grid-template-areas: "content2" "content1";}
+}
+	.element1{
+    grid-area: content1;
+}
+	.element2{
+    grid-area: content2;
+}
+
+/*Оформление элементов*/
+	header{
+    padding: 10px; 
+    margin: 15px;   
+    box-shadow: rgb(255, 117, 0) 4px 10px 15px 1px;
+}
+	.h1{
+    text-align: center;
+}
+	
+
+	.footer{
+
+    padding: 10px;
+    margin: 15px;
+    
+}
+
+body{
+
+    background:url("fon.jpg");
+    color: black;
+        
+ }
+
+h2.forms {
+    font-family: system-ui;
+    font-weight: 300;
+    text-align: center;
+    color: #ff7300;
+}
+divcenter {
+    width: 35%;
+    display: block;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+} form.new_form {
+    width: 70%;
+    border: 1px solid red;
+   
+
+}form.new_form textarea {
+    width: 99%;
+    margin: 10px 0;
+    height: 100px;
+    resize: none;
+    text-indent: 20px;
+    padding: 12px 0;
+
+
+}form.new_form input[type="text"] {
+    width: 49%;
+    padding: 10px 0;
+    text-indent: 15px;
+
+}form.new_form input {
+    width: 49%;
+    padding: 10px 0;
+    text-indent: 15px;
+
+}form.new_form {
+    width: 70%;
+    border: 1px solid #cecece;
+  	
+    height: 20%;
+    padding: 40px;     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);     margin: auto;
+
+}form.new_form input[type="submit"] {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #ff7300;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+form.new_form input[type="reset"] {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #ff7300;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+.container {
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1900px;
+   padding: 0 15px;
+   flex-direction:row-reverse;
+   justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
+
+@media(min-width: 800px){
+    .grid{
+    display: grid;
+    grid-template-columns:  200px minmax(200px, 1fr);
+    grid-template-areas: "content1 content2";} 
+
+.img2 {
+	width:80%;
+}
+ .img3 {
+	width:20%;
+}
+
+h2 {
+	font-size:200%;
+}
+
+}
+    @media(max-width: 800px){
+    .grid{
+   display: grid;
+   grid-template-rows: auto auto;
+   grid-template-areas: "content2" "content1";}
+
+.img2 {
+	width:80%;
+}
+.img3 {
+	width:20%;
+}
+h2 {
+	font-size:100%;
+}
+
+}
+    .element1{
+    grid-area: content1;
+}
+    .element2{
+    grid-area: content2;
+}
+
+@media(max-height: 600px){
+
+divcenter {
+    width: 75%;
+    top: 400px;
+}
+}
+
+
+@media(min-height: 600px){
+
+divcenter {
+    width: 75%;
+    top: 500px;
+}
+}
+
+
+
+
+
+
